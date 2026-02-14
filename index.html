@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <div class="bg-container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#home" >
+                <img class="image-logo" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770487234/LOGO_kl2xxo.jpg" alt="NOVAVIDA">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home-all">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Herbs & Leaves Benifits
+                        </a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#materials">Materials Used</a>
+                            <a class="dropdown-item" href="#step-by-step">step-by-step preparation</a>
+                            <a class="dropdown-item" href="#combined-benefits">Combined Benefits</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us
+                        </a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#APPLICATION PROCESS">APPLICATION PROCESS</a>
+                            <a class="dropdown-item" href="#owner-details">Owner details</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#product-box">PureVida oil</a>
+                            <a class="dropdown-item" href="">add After</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packing-proccess-box">Packing Process</a>
+                    </li>
+                </ul>
+            </div>
+                <a href="#cart-item" class="bg-dark d-flex flex-direction justify-content-end" style="text-decoration: none;">
+                    <span class="nav-item">
+                        🛒 Cart (<span id="cart-count">0</span>)
+                </a>
+        </nav>
+
+        <div class="cart-item section mt-5 p-5" id="cart-item">
+            <div id="cart-items">
+                <h3>Cart Items</h3>
+                 <p id="empty-message"><i class="fa-solid fa-cart-arrow-down m-3"></i>Cart is empty</p>
+                <ul id="cart-list" style="list-style-type: none;"></ul>
+            </div>
+        </div>
+
+        <header data-aos="fade-up" id="home-all" class="contain p-5 mt-5 mb-3 align-center mx-auto">
+            <div data-aos="fade-right" class="row">
+                <img class="image-container col-md-3" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770487234/LOGO_kl2xxo.jpg" alt="NOVAVIDA LOGO">
+                <div class="image-container text-center justify-content-between col-md-8">
+                    <div data-aos="fade-up" class="name-container col-md-12 d-flex flex-column justify-content-center">
+                        <h1 class="heading-cont">NOVAVIDA</h1>
+                        <p class="para-container"> <span style="font-weight: bold;">Experience Holistic Wellness with Our Herbal Oil</span> <br>
+                            Our carefully crafted herbal oil combines the goodness of natural oils and potent herbs to deliver complete physical, mental, and emotional well-being. Rich in nutrients, it nourishes your skin and hair, soothes tired muscles, and reduces inflammation and body pain.
+                            <br> <br>
+                            Regular use strengthens immunity, supports healthy digestion, and promotes respiratory wellness. Beyond the physical benefits, this herbal oil has a calming and stress-relieving effect, helping to balance your mind and emotions.
+                            <br> <br>
+                            Embrace the power of nature and enhance your overall health with our herbal oil a holistic approach to natural healing and wellness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div data-aos="fade-left" class="box-of-materials section mt-5 bg-success" id="materials">
+            <h4 class="text-center" style="color: white;">Materials Used</h4>
+            <div data-aos="fade-right" class="card-deck col-md-10 mx-auto m-5 mt-5">
+                <div  class="card" data-toggle="modal" data-target="#modal1">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533407/Nallennai_qj9kzc.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Nallennai</h5>
+                    </div>
+                    <div class="modal fade" id="modal1" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Nallennai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p> <bold>Parts Used</bold> : <br> Extracted from sesame seeds through cold pressing or traditional oil extraction methods.</p>
+                                    <p>
+                                        Benefits: <br> Nallennai is rich in antioxidants, vitamin E, and essential fatty acids, making it highly nourishing for skin and hair. It deeply penetrates tissues, improves blood circulation, strengthens bones, and supports joint health. It helps moisturize dry skin, prevents premature aging, and protects against environmental damage. Sesame oil is also known for its warming property, which helps relieve muscle stiffness and promotes relaxation. <br> 
+                                      <hr>  Why Used: <br>Sesame oil is commonly used as a base oil in herbal preparations because of its excellent absorption capacity. It carries herbal properties deep into the body, enhancing therapeutic effectiveness. Its stability and natural preservative qualities help maintain the potency of infused herbs, making it ideal for massage oils and medicinal formulations.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-toggle="modal" data-target="#modal2">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533417/Vilakkennai_jdv85t.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Vilakkennai</h5>
+                    </div>
+                    <div class="modal fade" id="modal2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Vilakkennai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Parts Used: <br>Usually a blend of plant-based oils prepared with various herbal extracts and medicinal ingredients.
+                                    </p>
+                                    <p>
+                                        Benefits: <br>Vilakkennai improves blood circulation, relaxes muscles, and reduces body fatigue. It helps soothe inflammation, supports joint flexibility, and protects skin from dryness. The herbal infusion enhances therapeutic action by combining multiple medicinal properties. It may also help relieve stress and promote physical relaxation.<br>
+                                      <hr>  Why Used: <br> This oil is used as a supporting base in herbal formulations to enhance healing effects. Its blended nature allows different herbs to dissolve effectively, ensuring balanced delivery of nutrients and medicinal compounds. It also helps improve the spreadability of the oil during massage, making it suitable for therapeutic applications.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal3">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533402/Erukkan_Ilai_pgsfbm.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Erukkan Ilai</h5>
+                    </div>
+                    <div class="modal fade" id="modal3" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Erukkan Ilai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Parts Used: <br>Leaves of the Calotropis gigantea plant.
+                                    </p>
+                                    <p>
+                                        Benefits: <br>Erukkan Ilai is traditionally used to relieve body pain, swelling, and inflammation. It contains compounds that help relax muscles and reduce joint stiffness. The leaf is also known for its warming effect, which improves blood flow to affected areas and helps ease discomfort. It has mild analgesic properties that help reduce pain naturally. <br>
+                                      <hr>  Why Used: <br>It is included in herbal oils mainly for pain relief and anti-inflammatory benefits. When infused into oil, its active compounds become easier to apply externally, allowing deeper penetration into muscles and joints. This makes it especially useful for massage oils aimed at relieving physical strain and improving mobility.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal4">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533408/Nocchi_Ilai_pnua8q.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Nocchi Ilai</h5>
+                    </div>
+                    <div class="modal fade" id="modal4" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Nocchi Ilai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Parts Used: <br>Leaves and sometimes rhizome of the Sweet Flag plant (Acorus calamus).
+                                    </p>
+                                    <p>
+                                        Benefits: <br>Vasambu is known for improving digestion and relieving mild cold symptoms. It has cooling and calming properties that help balance body heat and soothe the digestive system. It also has antimicrobial properties that help maintain overall wellness. <br>
+                                      <hr>  Why Used: <br> In herbal oils, Vasambu provides a balancing effect by reducing excess heat and promoting calmness. Its cooling nature complements warming herbs, creating a balanced formulation. It is included to enhance relaxation, support digestive health indirectly, and provide mild aromatic benefits.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-left" class="card-deck col-md-10 mx-auto m-5 mt-5">
+                <div class="card" data-toggle="modal" data-target="#modal5">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533417/Vetri_lai_p0d2vp.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Vetrilai</h5>
+                    </div>
+                    <div class="modal fade" id="modal5" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Vetrilai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Parts Used: <br>Leaves of the Vitex negundo plant.
+                                    </p>
+                                    <p>Benefits: <br> Nocchi Ilai helps reduce fever, body aches, and respiratory discomfort. It has anti-inflammatory and analgesic properties that help relieve pain and swelling. It also strengthens immunity and helps manage mild infections.
+
+<br> <hr>Why Used: <br>
+This leaf is added to herbal oils to enhance pain-relieving and immune-supporting properties. Its soothing effect helps relax muscles and reduce inflammation when used externally. It is commonly used in traditional therapies for body aches and fever-related discomfort.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal6">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533407/Modakaththan_Ilai_kui9jp.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Modakaththan Ilai</h5>
+                    </div>
+                    <div class="modal fade" id="modal6" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Modakaththan Ilai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used: <br>
+Fresh leaves of the betel plant (Piper betle).</p>
+                                    <p>Benefits: <br>
+Betel leaf has antibacterial and digestive properties. It helps cleanse the skin, prevent infections, and improve circulation. Its natural aromatic compounds provide a refreshing effect and help maintain hygiene.
+ <br>
+<hr> Why Used: <br>
+Vetrilai is included in herbal oils to enhance antibacterial action and cleansing properties. It supports skin health and helps maintain freshness during use. Its aromatic nature also improves the sensory experience of the oil.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal7">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533411/Pirandai_kkqvix.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Pirandai</h5>
+                    </div>
+                    <div class="modal fade" id="modal7" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Pirandai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used: <br>
+Stem.</p>
+                                    <p>Benefits: <br>
+Strengthens bones, supports healing of minor fractures, and improves structural strength of the body.<br>
+<hr>
+Why Used:<br>
+
+Supports bone strength<br>
+
+Helps recovery from injuries<br>
+
+Provides structural support<br>
+
+Enhances joint stability
+<br>
+Improves healing properties</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal8">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533403/Karpura_Valli_cnd3nl.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Karpura Valli</h5>
+                    </div>
+                    <div class="modal fade" id="modal8" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Karpura Valli Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used: <br>
+Leaves.</p>
+                                    <p>Benefits: <br>
+Relieves cough, cold, and respiratory discomfort. Provides soothing aromatic effect. <br>
+<hr>
+Why Used: <br>
+
+Supports respiratory health <br>
+
+Provides calming aroma <br>
+
+Helps clear airways <br>
+
+Enhances therapeutic fragrance <br>
+
+Adds soothing effect</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-right" class="card-deck col-md-10 mx-auto m-5 mt-5">
+                <div class="card" data-toggle="modal" data-target="#modal9">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533403/karunthulasi_epgpng.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Karunthulasi</h5>
+                    </div>
+                    <div class="modal fade" id="modal9" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Karunthulasi Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used: <br>
+Leaves.</p>
+                                    <p>Benefits: <br>
+Boosts immunity, reduces fever, and provides antibacterial action. <br>
+<hr>
+Why Used: <br>
+
+Strengthens immune support<br>
+
+Provides antibacterial protection<br>
+Helps reduce fever symptoms
+<br>
+
+Enhances healing effect<br>
+
+Supports overall wellness</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal10">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533415/Vellai_Thulasi_hxiv6j.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Vellai Thulasi</h5>
+                    </div>
+                    <div class="modal fade" id="modal10" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Vellai Thulasi Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used: <br>
+Leaves.</p>
+                                    <p>Benefits:<br>
+Supports respiratory health and improves breathing. Protects against mild infections.<br>
+<hr>
+Why Used:<br>
+<br>
+Supports lung health
+<br>
+Helps improve breathing
+<br>
+Adds antibacterial properties
+<br>
+Enhances respiratory relief
+<br>
+Supports immune balance</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal11">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533406/manjal_Thulasi_hlvkva.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Manjalthool</h5>
+                    </div>
+                    <div class="modal fade" id="modal11" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Manjalthool Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used:<br>
+Leaves.</p>
+                                    <p>Benefits:<br>
+Anti-inflammatory and immune-supporting herb that reduces body pain and enhances healing.<br>
+<hr>
+Why Used:<br>
+<br>
+Reduces inflammation
+<br>
+Supports immunity<br>
+
+Helps relieve body pain
+<br>
+Enhances healing properties
+<br>
+Improves overall wellness</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal12">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533412/Turmeric_Leaf_kaxlwj.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Manjalillai</h5>
+                    </div>
+                    <div class="modal fade" id="modal12" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Manjalillai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used: <br>
+Leaves.</p>
+                                    <p>Benefits: <br>
+Antiseptic and skin-protective properties that support healthy skin and prevent infections. <br>
+<hr>
+Why Used: <br>
+
+Provides antiseptic protection <br>
+
+Supports skin health <br>
+
+Prevents infections <br>
+
+Adds mild fragrance <br>
+
+Enhances skin care benefits</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-left" class="card-deck col-md-10 mx-auto m-5 mt-5">
+                <div class="card" data-toggle="modal" data-target="#modal13">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533410/Pandan_Leaf_puvw4a.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Pandan Leaf</h5>
+                    </div>
+                    <div class="modal fade" id="modal13" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Pandan Leaf Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used:<br>
+Leaves.</p>
+                                    <p>Benefits:<br>
+Provides calming aroma, reduces stress, and supports mental relaxation.
+<hr>
+Why Used:
+<br>
+Creates relaxing fragrance
+<br>
+Helps reduce stress
+<br>
+Supports emotional calmness
+<br>
+Enhances aromatherapy effect
+<br>
+Improves mental relaxation</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal14">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533409/Pacchai_Karpuram_owss3u.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Pacchai Karpuram</h5>
+                    </div>
+                    <div class="modal fade" id="modal14" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Pacchai Karpuram Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used:<br>
+Natural camphor resin.</p>
+                                    <p>Benefits:<br>
+Supports digestion and relieves mild respiratory discomfort. Adds cooling and refreshing effect.
+<hr>
+Why Used:
+<br>
+Enhances therapeutic aroma
+<br>
+Provides cooling sensation
+<br>
+Supports respiratory comfort
+<br>
+Improves overall effectiveness
+<br>
+Adds refreshing quality</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-toggle="modal" data-target="#modal15">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533416/Vetiver_Root_uwe9q7.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Vetiver Root</h5>
+                    </div>
+                    <div class="modal fade" id="modal15" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Vetiver Root Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used:<br>
+Root.</p>
+                                    <p>Benefits:<br>
+Cooling herb that reduces body heat, relieves stress, and calms the mind.
+<hr>
+Why Used:
+<br>
+Provides cooling effect
+<br>
+Helps reduce body heat
+<br>
+Supports relaxation
+<br>
+Enhances stress relief
+<br>
+Adds grounding aroma</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-toggle="modal" data-target="#modal16">
+                    <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770533415/Veppilai_zumish.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Veppilai</h5>
+                    </div>
+                    <div class="modal fade" id="modal1<br>6" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Veppilai Details</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Parts Used:<br>
+Leaves.</p>
+                                    <p>Benefits:<br>
+Strong antibacterial and blood-purifying properties. Protects skin and supports healing.
+<hr>
+Why Used:
+<br>
+Provides antibacterial protection
+<br>
+Supports skin cleansing
+<br>
+Prevents infections
+<br>
+Enhances medicinal strength
+<br>
+Promotes overall body wellness</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-aos="fade-right" class="step-by-step section p-3 mt-5" id="step-by-step">
+            <h4 class="text-center" style="color: white;">Step-by-step Preparation</h4>
+            <div class="cont-step mx-auto p-5 mt-5 mb-5">
+                <div data-aos="fade-right" class="box-all row">
+                    <img class="image-step" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770550661/Clean_Prepare_Leaves_hthnzv.jpg" alt="">
+                    <p class="vertical-line-1"></p>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h5 class="step-head">Step 1: Clean & Prepare Leaves</h5>
+                        <ul>
+                            <li class="list-of-steps">Wash all leaves/herbs thoroughly.</li>
+                            <li class="list-of-steps">Remove dirt and dry gently.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" class="box-all row justify-content-end">
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h5 class="step-head">Step 2: Crush Leaves & Herbs</h5>
+                        <ul>
+                            <li class="list-of-steps">Crush each leaf/herb separately using a mortar and pestle.</li>
+                            <li class="list-of-steps">Ensure all leaves are fully submerged in oil.</li>
+                        </ul>
+                    </div>
+                    <p class="vertical-line-2"></p>
+                    <img class="image-step" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770552838/Crush_Leaves_Herbs_qyihnj.jpg" alt="">
+                </div>
+
+                <div data-aos="fade-right" class="box-all row">
+                    <img class="image-step" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770552838/Mix_with_Oils_tw8ecx.jpg" alt="">
+                    <p class="vertical-line-1"></p>
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h5 class="step-head">Step 3: Mix with Oils</h5>
+                        <ul>
+                            <li class="list-of-steps">Take Nallennai and Vilakkennai in a clean bowl.</li>
+                            <li class="list-of-steps">Add crushed herbs/leaves to the oils.</li>
+                            <li class="list-of-steps">Heat lightly on low flame to release herbal properties.</li>
+                            <li class="list-of-steps">Stir gently for 5-10 minutes.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" class="box-all row justify-content-end">
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h5 class="step-head">Step 4: Cool & Store Oil</h5>
+                        <ul>
+                            <li class="list-of-steps">Let the oil cool to room temperature.</li>
+                            <li class="list-of-steps">Strain to remove solids if needed.</li>
+                            <li class="list-of-steps">Store in a clean, dry glass bottle.</li>
+                        </ul>
+                    </div>
+                    <p class="vertical-line-2"></p>
+                    <img class="image-step" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770552838/Cool_Store_Oil_fm9rlo.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div data-aos="fade-left" class="combined-benefits section bg-success p-3 mt-5" id="combined-benefits">
+            <h4 class="text-center" style="color: white; padding-bottom: 10px;">Combined Benefits of All Materials Used</h4>
+            <div class="row mt-4 mb-5 ">
+                <div class="col-4 d-flex flex-row justify-content-center">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action" id="list-Physical-list" data-toggle="list" href="#list-Physical" role="tab" aria-controls="Physical">Physical Health Benefits</a>
+                        <a class="list-group-item list-group-item-action" id="list-Skin-list" data-toggle="list" href="#list-Skin" role="tab" aria-controls="Skin">Skin and Hair Benefits</a>
+                        <a class="list-group-item list-group-item-action" id="list-Digestive-list" data-toggle="list" href="#list-Digestive" role="tab" aria-controls="Digestive">Digestive and Internal Benefits</a>
+                        <a class="list-group-item list-group-item-action" id="list-Cooling-list" data-toggle="list" href="#list-Cooling" role="tab" aria-controls="Cooling">Cooling and Relaxation Benefits</a>
+                        <a class="list-group-item list-group-item-action" id="list-combined-list" data-toggle="list" href="#list-combined" role="tab" aria-controls="combined">Overall Combined Benefits</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show" id="list-Physical" role="tabpanel" aria-labelledby="list-Physical-list">
+                            <div class="icon-comp d-flex justify-content-center align-items-center"><i class="fa-solid fa-heart-circle-plus"></i></div>
+                            <ul style="list-style-type: circle;">
+                                <li>Body pain, joint stiffness, and muscle inflammation.</li>
+                                <li>Improves blood circulation throughout the body.</li>
+                                <li>Supports bone strength and healing.</li>
+                                <li>Helps relieve fever, cough, and cold symptoms.</li>
+                                <li>Enhances respiratory health and breathing comfort.</li>
+                                <li>Strengthens immunity and helps prevent infections.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-Skin" role="tabpanel" aria-labelledby="list-Skin-list">
+                            <div class="icon-comp d-flex justify-content-center align-items-center"><i class="fa-solid fa-house-medical"></i></div>
+                            <ul style="list-style-type: circle;">
+                                <li>Nourishes and moisturizes skin deeply.</li>
+                                <li>Protects against bacterial and fungal infections.</li>
+                                <li>Improves skin health and natural glow.</li>
+                                <li>Supports healthy scalp and strengthens hair roots.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-Digestive" role="tabpanel" aria-labelledby="list-Digestive-list">
+                            <div class="icon-comp d-flex justify-content-center align-items-center"><i class="fa-solid fa-user-doctor"></i></div>
+                            <ul style="list-style-type: circle;">
+                                <li>Improves digestion and reduces stomach discomfort.</li>
+                                <li>Helps detoxify and purify the body.</li>
+                                <li>Supports internal balance through herbal properties.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-Cooling" role="tabpanel" aria-labelledby="list-Cooling-list">
+                            <div class="icon-comp d-flex justify-content-center align-items-center"><i class="fa-solid fa-snowflake"></i></div>
+                            <ul style="list-style-type: circle;">
+                                <li>Provides cooling effect to reduce body heat.</li>
+                                <li>Relieves stress and promotes relaxation.</li>
+                                <li>Calms the mind with natural fragrance and herbal aroma.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="list-combined" role="tabpanel" aria-labelledby="list-combined-list">
+                            <div class="icon-comp d-flex justify-content-center align-items-center"><i class="fa-solid fa-code-merge"></i></div>
+                            <ul style="list-style-type: circle;">
+                                <li>Acts as a natural pain reliever.</li>
+                                <li>Enhances immunity and overall wellness.</li>
+                                <li>Supports respiratory, muscular, and skeletal health.</li>
+                                <li>Provides antibacterial, anti-inflammatory, and healing properties.</li>
+                                <li>Promotes holistic body rejuvenation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-aos="fade-right " class="company-manufacture section mt-5" id="APPLICATION PROCESS">
+            <h4 class="text-center mt-3" style="color: white;">STEP-BY-STEP APPLICATION PROCESS</h4>
+                <div class="company-manufa mx-auto p-5 mt-3 mb-5">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img style="aspect-ratio: 4/3;" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771057512/pexels-polina-tankilevitch-7337883_j2pkd3.jpg" class="d-block w-100" alt="image1">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Wear mask, gloves, and apron.</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="aspect-ratio: 4/3;" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771057512/pexels-god-picture-369194295-14470153_yfpqi0.jpg" class="d-block w-100" alt="image2">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Use a clean spoon or dropper to take the oil.</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="aspect-ratio: 4/3;" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771057513/pexels-ron-lach-8140918_p9uarm.jpg" class="d-block w-100" alt="image3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Apply gently on skin or hair.</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="aspect-ratio: 4/3;" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771057513/pexels-thefullonmonet-28994388_h3juev.jpg" class="d-block w-100" alt="image3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>For hair masks, spread on scalp and strands.</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="aspect-ratio: 4/3;" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771057920/scalp-massage-man_ka7xvi.jpg" class="d-block w-100" alt="image3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Massage for 5 - 10 minutes for better absorption.</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="aspect-ratio: 4/3;" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771057513/pexels-towfiqu-barbhuiya-3440682-11091978_beujsp.jpg" class="d-block w-100" alt="image3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5> Wipe spills and clean the working area.</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="aspect-ratio: 4/3;" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771057513/pexels-jjskorupski-4328899_czr3ms.jpg" class="d-block w-100" alt="image3">
+                                <div class="carousel-caption d-none d-md-block bg-dark">
+                                    <h5>Wash hands and remove gloves after use.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+        <div data-aos="fade-left" class="owner-details section bg-success p-3 mt-5" id="owner-details">
+            <h4 class="text-center" style="color: white;">Owner Details</h4>
+            <div class="cont-step mx-auto p-5 mt-5 mb-5">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card text-center ">
+                            <h5 class="card-title c-change1">NAME: MATHAN A/L JAYARAM</h5>
+                            <p class="address-ca c-change1"> <u>ADDRESS</u> <br> 50A, JALAN 1/19, SEKSYEN 1 46000 PETALING JAYA,SELANGOR</p>
+                        <div class="card-body c-change2">
+                            <h5 class="card-title mt-4">Madhan</h5>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card text-center">
+                            <h5 class="card-title c-change1">NAME: RAVI A/ L PONNIAH</h5>
+                            <p class="address-ca c-change1"> <u>ADDRESS</u> <br> NO 36, JALAN 8A,TAMAN TAN YEW LAIJALAN KLANG LAMA 58200 KUALA LUMPUR,WILAYAH PERSEKUTUAN</p>
+                            <div class="card-body c-change2">
+                                <h5 class="card-title">Ravi</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="fade-right" class="product section mt-5 p-3" id="product-box">
+            <h4 class="text-center pt-2" style="color: white;">PRODUCTS</h4>
+                <div class="d-flex flex-direction justify-content-around p-5" >
+                    <div class="card card-cont mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                            <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770799825/R_brlbyt.png" class="card-img" alt="purevida_image">
+                            </div>
+                            <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">PUREVIDA OIL</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                   <div class="row justify-content-around">
+                                        <a href="#top" type="button" class="btn btn-primary">See product</a>
+                                        <button onclick="addToCart('PureVida Oil')" class="btn btn-success">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-cont mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                            <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770799825/R_brlbyt.png" class="card-img" alt="purevida_image">
+                            </div>
+                            <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">PUREVIDA OIL</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="row justify-content-around">
+                                        <a href="#top" type="button" class="btn btn-primary">See product</a>
+                                        <button onclick="addToCart('ADD new oil')" class="btn btn-success">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+         <div data-aos="fade-left" class="packing-process section mt-5 p-3 bg-success" id="packing-proccess-box">
+            <h4 class="text-center" style="color: white;">Packing Process</h4>
+            <div class="cont-step mx-auto p-5 mt-5 mb-5">
+                <div data-aos="fade-right" class="box-all row">
+                    <img class="image-step" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771059890/paking_1_favmhj.jpg" alt="">
+                    <p class="vertical-line-1"></p>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h5 class="step-head">Step 1: Pour cooled oil into clean bottles.</h5>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" class="box-all row justify-content-end">
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h5 class="step-head">Step 2: Seal tightly with caps or lids.</h5>
+                    </div>
+                    <p class="vertical-line-2"></p>
+                    <img class="image-step" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771059876/packing_2_obaw0q.jpg" alt="">
+                </div>
+
+                <div data-aos="fade-right" class="box-all row">
+                    <img class="image-step" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771059901/Screenshot_2026-02-14_143417_wjbznw.png" alt="">
+                    <p class="vertical-line-1"></p>
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h5 class="step-head">Step 3: Label with:</h5>
+                        <ul>
+                            <li class="list-of-steps">Price: </li>
+                            <li class="list-of-steps">Manufacture Date: </li>
+                            <li class="list-of-steps">Expire Date: </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" class="box-all row justify-content-end">
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h5 class="step-head">Step 4: Store in a cool, dry place.</h5>
+                    </div>
+                    <p class="vertical-line-2"></p>
+                    <img class="image-step" src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1771059889/packing_4_tb9myd.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <footer id="footer-all" class=" footer_container text-center pb-5 mt-5 p-5">
+            <img src="https://res.cloudinary.com/dyelhfqwj/image/upload/v1770487234/LOGO_kl2xxo.jpg" alt="footer logo" class="image-footer align-start row">
+            <div class="row">
+                <div class="footer-content col-md-12">
+                    <h1 class="heading-cont">NOVAVIDA</h1>
+                    <p class="para-footer">Founded in 2025,Novavida</p>
+                </div>
+
+                <span class="horizontal-line col-md-11"></span>
+
+
+                <div class="know-us-footer col-md-12 mb-3 " style="color: white;">
+                    <h3 class="know-us-heading">
+                        <bold>Get To Know Us</bold>
+                    </h3>
+                    <p class="know-us-para">Novavida is dedicated to providing high-quality herbal oils that promote holistic wellness. Our products are crafted using traditional methods and natural ingredients to ensure maximum benefits for our customers.</p>
+                    <button class="know-us-button">Know More</button>
+                </div>
+
+                <span class="horizontal-line col-md-11"></span>
+
+                <div class="follow-us-footer col-md-12 mb-3">
+                    <h3 class="follow-us-heading">
+                        <bold>Follow Us</bold>
+                    </h3>
+                    <p class="para-follow">Stay updated with our latest news and offers!</p>
+                    <div class="social-icons d-flex justify-content-left gap-4 mt-3">
+                        <a href="" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <span class="horizontal-line col-md-11"></span>
+
+                <div class="footer-links col-md-11 ">
+                    <a data-aos="fade-right" href="#home-all" class="footer-link shadow">Home</a> <br>
+                    <a data-aos="fade-left" href="#materials" class="footer-link shadow">Material Used</a><br>
+                    <a data-aos="fade-right" href="#owner-details" class="footer-link shadow">OWNER DETAILS</a><br>
+                    <a data-aos="fade-left" href="#product-box" class="footer-link shadow">Products</a><br>
+                    <a data-aos="fade-right" href="#packing-process" class="footer-link shadow">Packing Process</a>
+                </div>
+
+        </footer>
+        
+        <div class="stick-bottom-to-top">
+            <a href="#top" class="back-to-top-button">Go to Top</a>
+        </div>
+</div>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://kit.fontawesome.com/6d763e85ce.js" crossorigin="anonymous"></script>
+    
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+        <script>
+        // Load saved cart from localStorage
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+function addToCart(product){
+
+    cart.push(product);
+
+    saveCart();
+    displayCart();
+}
+
+function removeItem(index){
+    cart.splice(index,1);
+    saveCart();
+    displayCart();
+}
+
+function saveCart(){
+    // store in browser
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+function displayCart(){
+
+    let list = document.getElementById("cart-list");
+    list.innerHTML = "";
+
+    document.getElementById("cart-count").innerText = cart.length;
+
+    if(cart.length === 0){
+        document.getElementById("empty-message").style.display = "block";
+    }else{
+        document.getElementById("empty-message").style.display = "none";
+    }
+
+    cart.forEach((item,index)=>{
+
+        let li = document.createElement("li");
+
+        li.innerHTML = ` ${item}
+            <button class= "close-hover btn btn-danger ml-5" onclick="removeItem(${index})"><span aria-hidden="true">&times;</span></button>`;
+        list.appendChild(li);
+
+    });
+
+}
+
+// show cart when page loads
+displayCart();
+
+        </script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,377 @@
+.body {
+    margin: 0px;
+    transition: all 0.10s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section{
+    display:none;
+}
+
+.section:target {
+    display: block;
+}
+
+#home-all:target,
+body:not(:has(:target)) #home-all {
+    display: block;
+}
+#home-all:target ~ #materials,
+#home-all:target ~ #step-by-step,
+#home-all:target ~ #combined-benefits,
+#home-all:target ~ #company-manufacture,
+#home-all:target ~ #product-box,
+#home-all:target ~ #cart-item,
+#home-all:target ~ #packing-proccess-box,
+#home-all:target ~ #owner-details {
+    display: block;
+}
+
+.card:hover{
+    background-color: green !important;
+}
+
+.card-cont:hover{
+    background-color: green !important;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgb(64, 228, 64);
+    color: white !important;
+}
+.navbar a:active {
+    background-color: rgb(15, 246, 172);
+    color: green !important;
+}
+
+.bg-container{
+    background-color: rgb(76, 196, 76);
+    width: 100%;
+    height: 100%;
+    font-family: "roboto", sans-serif;
+    transition: all 0.8s ease-in-out;
+}
+
+.nav-item{
+    font-family: "roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.image-logo{
+    width: 80px;
+}
+
+.contain{
+    background-color: white;
+    width: 75%;
+    height: auto;
+    border-top-right-radius: 23px;
+    border-right: 10px solid rgb(15, 229, 154);
+    border-bottom: 10px solid rgb(15, 229, 154);
+    
+}
+.image-container{
+    width: 120px;
+}
+
+.heading-cont{
+    font-size: 1rem;
+    font-weight: bold;
+    color: green;
+    text-align: left;
+}
+.para-container{
+    font-size: 1rem;
+    text-align: left;
+    color: black;
+}
+.name-container{
+    margin-top: 3%;
+}
+
+.footer_container{
+    background-color: rgb(87, 199, 121);
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+.image-footer{
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.para-footer{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.know-us-footer{
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+}
+.know-us-button{
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: green 4px solid ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.footer-links{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1rem;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+    border-style: none;
+    padding: 20px;
+    border: white solid 6px ;
+    border-left: white 4px solid ;
+    border-bottom: white 4px solid ;
+}
+.footer-link:hover{
+    color: rgb(227, 232, 227);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(18, 186, 110);
+    border: green solid 6px ;
+    border-right: white 6px solid ;
+    border-top: white 6px solid ;
+    font-size: 1.2rem;
+}
+
+.horizontal-line{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.follow-us-footer{
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+.follow-us-heading{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.social-icons{
+    color: white;
+    gap: 50px;
+}
+.social-icon{
+    font-size: 2rem;
+    color: white;
+    gap: 50px;
+}
+
+.social-icon:hover{
+    color: green;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover{
+    box-shadow: 20px 20px 20px rgba(227, 220, 220, 0.5);
+    cursor: pointer;
+    color: white;
+}
+
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.card-img-top{
+    aspect-ratio: 4/3;
+}
+
+.box-of-materials{
+    background-color: green;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.back-to-top-button{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.back-to-top-button:hover{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.6s ease;
+}
+
+.image-step{
+    width: 200px;
+    margin: 2%;
+    aspect-ratio: 1/1;
+    background-color: green;
+}
+.step-head{
+    font-size: 1rem;
+    font-weight: bold;
+    color: green;
+    margin-right: 5%;
+}
+
+.vertical-line-1{
+    border-right: solid green 10px;
+    margin-right: 5%;
+}
+.vertical-line-2{
+    border-right: solid green 10px;
+    margin-left: 5% ;
+}
+
+.list-of-steps{
+    align-items: center;
+    font-size: 1rem;
+    list-style-type: circle;
+}
+
+.cont-step{
+    background-color: white;
+    width: 60%;
+    height: auto;
+    border-top-right-radius: 23px;
+    border-right: 10px solid rgb(116, 195, 126);
+    border-bottom: 10px solid rgb(116, 195, 126);
+}
+
+.tab-pane{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    border-radius: 20px 0px 20px 0px;
+    border-left: 10px solid rgb(33, 251, 33);
+    border-right: 10px solid rgb(11, 243, 185);
+    margin: 3px 30px 30px 0px;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: left;
+    color: black;
+}
+
+.icon-comp{
+    font-size: 3rem;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.c-change1{
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.c-change2{
+    opacity: 1;
+    transition: 0.5s ease;
+    color: green;
+}
+
+.card:hover .c-change1{
+    opacity: 1;
+    color: white;
+    padding: 10px;
+}
+
+.card:hover .c-change2{
+    opacity: 0;
+}
+
+.company-manufa{
+    background-color: white;
+    width: 55%;
+    padding: 50px;
+    border-top-right-radius: 23px;
+    border-right: 10px solid rgb(116, 195, 126);
+    border-bottom: 10px solid rgb(116, 195, 126);
+}
+
+.cart-item{
+    text-align: center;
+    color: green;
+    background-color: white;
+    height: auto;
+}
+
+.card-list{
+        list-style-type: none;
+        margin: 10px;
+}
+
+.close-hover{
+    margin: 10px;
+}
+
+.close-hover:hover{
+    border: grey solid 3px;
+}
